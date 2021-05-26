@@ -1,0 +1,57 @@
+<html>
+
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+                integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <title>Recuperar contraseña</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+              integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script type="text/javascript" src="js/recuperarContraseñaCorreo.js"></script>
+        <link href="./css/recuperarContraseñaCorreo.css" rel="stylesheet">
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+        h3,
+        input,
+        button {
+            font-family: 'Akaya Telivigala', cursive;
+        }
+    </style>
+
+    <body>
+        <div class="container">
+            <div class="d-flex justify-content-center h-100">
+                <div class="cuadrado">
+                    <div class="input-group" id="LRimage">
+                        <img src="./css/img/Logo.png" style="width: 100px; height: 100px;">
+                    </div>
+                    <div id="texto">
+                        <h3>Recuperación de contraseña<br><font size=3>introduce tu usuario para buscar tu cuenta</font></h3>
+                    </div>
+                    <center>
+
+                            <div class="casillas">
+								<i class="fas fa-user"></i>
+                                <input id="usuario" placeholder="Username" required/>
+                            </div>
+                        <div id="enroll">
+                          
+                                <button type="button" class="btn btn-success" onclick="apiRecuperarContraseña.recuperarContraseña()" href="recuperarContraseña.html">Recuperar contraseña</button>
+                         
+                        </div>
+
+                    </center>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

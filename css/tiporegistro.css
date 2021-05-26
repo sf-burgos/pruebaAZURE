@@ -1,0 +1,50 @@
+.container{
+    height: 100%;
+    align-content: center;
+}
+#email{
+    justify-content: center;
+}
+#LRimage{
+    justify-content: center;
+    padding: 20px
+}
+#pw{
+    justify-content: center;
+    padding: 30px;
+}
+#crearcuenta{
+    
+    justify-content: center;
+    padding: 20px;
+}
+#forgot{
+    
+    justify-content: center;
+}
+#log{
+    justify-content: center;
+}
+.center-h {
+    justify-content: center;
+}
+.center-v {
+    felx-direction: column;
+}
+.cuadrado {
+        height: 460px;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 415px;
+        border: black 3px solid;
+        background-color: rgba(235, 235, 235, 0.62);
+        
+}
+
+body{
+    background: url(./img/fondoRegistro.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

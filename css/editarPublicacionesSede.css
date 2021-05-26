@@ -1,0 +1,95 @@
+.container{
+    height: 100%;
+	width: 100%;
+}
+#LRimage{
+    padding-left: 25%;
+}
+.center-h {
+    justify-content: center;
+}
+.center-v {
+    felx-direction: column;
+}
+.cuadrado {
+	  float: right;
+      height: 85%;
+      margin-top: 5%;
+      margin-bottom: auto;
+	  margin-right: 10%;	
+      width: 800px;
+      border: black 3px solid;
+      background-color: rgba(235, 235, 235, 0.62);
+      
+}
+.izq{
+	float: left;
+}
+#derecha{
+	float: right;
+	padding-right: 40px;
+}
+
+#vistaPrevia{
+
+}
+#title{
+	padding-top: 15px;
+}
+#form{
+	padding-top:30px
+}
+#pencil{
+	padding-left: 28%;
+}
+.centrado{
+	text-aling: center;
+	line-height: 36px;
+}
+#description{
+	width: 92%;
+}
+.editar {
+	  float: left;
+      height: 98%;
+      width: 25%;
+	  margin-top: 5px;
+	  margin-bottom: 5px;
+      border: black 3px solid;
+      background-color: rgba(235, 235, 235, 0.62);
+      
+}
+
+#izq{
+	float: left;
+}
+
+.letra{
+	padding-right: 33px;
+}
+.pw{
+    padding-top: 10px;
+}
+
+#descriptionDiv{
+	padding-top: 15px;
+}
+#enroll{
+    padding-top: 50px;
+	padding-left: 10%;
+}
+#texto{
+    padding-left: 30;
+    padding-bottom: 5
+}
+main {
+    column-count:2;
+}
+
+body{
+    background: url(./img/fondoRegistro.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

@@ -1,0 +1,46 @@
+.container{
+    height: 100%;
+    align-content: center;
+}
+#LRimage{
+    justify-content: center;
+    padding: 20px
+}
+.center-h {
+    justify-content: center;
+}
+.center-v {
+    felx-direction: column;
+}
+.cuadrado {
+      height: 500px;
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 450px;
+      border: black 3px solid;
+      background-color: rgba(235, 235, 235, 0.62);
+      
+}
+
+.casillas{
+    padding-top: 10px;
+}
+
+#enroll{
+    padding-top: 50px;
+}
+#texto{
+    padding-left: 30;
+    padding-bottom: 5
+}
+main {
+    column-count:2;
+}
+
+body{
+    background: url(./img/fondoRegistro.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

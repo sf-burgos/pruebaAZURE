@@ -1,0 +1,56 @@
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-size:  cover;
+    background-position: center;
+	transition: all .1s ease-in-out;
+	background-image: url(./img/banner1.jpg);
+	background-image: 
+	linear-gradient(
+		rgba(6, 25, 194, 0.288)
+		rgba(136, 0, 0, 0.8));
+	animation: banner 24s infinite linear;
+}
+
+.banner-context{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes banner{
+	0%{
+		background-image: url(./img/banner1.jpg);
+	}
+	20%{
+		background-image: url(./img/banner1.jpg);
+	}
+	
+	21%{
+		background-image: url(./img/banner2.jpg);
+	}
+	40%{
+		background-image: url(./img/banner2.jpg);
+	}
+	
+	41%{
+		background-image: url(./img/banner3.jpg);
+	}
+	60%{
+		background-image: url(./img/banner3.jpg);
+	}
+	
+	61%{
+		background-image: url(./img/banner4.jpg);
+	}
+	80%{
+		background-image: url(./img/banner4.jpg);
+	}
+    81%{
+		background-image: url(./img/banner5.jpg);
+	}
+	100%{
+		background-image: url(./img/banner5.jpg);
+	}
+}

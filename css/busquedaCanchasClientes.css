@@ -1,0 +1,55 @@
+.container{
+    height: 100%;
+    align-content: center;
+}
+#email{
+    justify-content: center;
+}
+#LRimage{
+    justify-content: center;
+    padding: 20px
+}
+#pw{
+    justify-content: center;
+    padding: 30px;
+}
+#crearcuenta{
+    
+    justify-content: center;
+    padding: 20px;
+}
+#forgot{
+    
+    justify-content: center;
+}
+#log{
+    justify-content: left;
+}
+.center-h {
+    justify-content: center;
+}
+.center-v {
+    felx-direction: column;
+}
+.cuadrado {
+      height: 900px;
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 900px;
+      border: black 3px solid;
+      background-color: rgba(235, 235, 235, 0.62);
+      
+}
+.btn-space {
+    margin-right: 15px;
+}
+body{
+    background: url('./img/fondoRegistro.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.b1 {width: 100%;
+    vertical-align: middle;
+}
